@@ -18,13 +18,40 @@ $(function() {
 .comment p:first-child {
     margin-top:0;
 }
+
+#logo {
+  background-image:url(http://kotik.iem.pw.edu.pl/templates/jaskowytemplateforkotik/images/logokotik3.png);
+  display:block;
+  width: 217px;
+  height: 217px;
+  overflow:hidden;
+  text-indent:100%;
+  white-space:nowrap;
+
+  -moz-transition:all 1s ease-in;
+  -webkit-transition:all 1s ease-in;
+  -o-transition:all 1s ease-in;
+  transition:all 1s ease-in;
+
+  -moz-transform:rotate(0deg);
+  -webkit-transform:rotate(0deg);
+  transform:rotate(0deg);
+}
+
+#logo:hover{
+  -moz-transform:rotate(360deg);
+  -webkit-transform:rotate(360deg);
+  transform:rotate(360deg);
+}
+
+.logo
 </style>
 
 </head>
 
 <body>
   <center>
-    <img src="http://kotik.iem.pw.edu.pl/templates/jaskowytemplateforkotik/images/logokotik3.png" alt="logo kotik" />
+    <a id="logo" href="" />kotik</a>
     <table border="0" cellpadding="0" cellspacing="0" width="85%" bgcolor="#F6F6EF">
       <tr>
         <td bgcolor="#D9E7FF">
