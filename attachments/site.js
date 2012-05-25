@@ -99,8 +99,8 @@ var comments = {
             // change the parent_id to be what we just clicked on
             $form.find('[name=parent_id]').val(commentId);
             var $submit = $form.find('input[type=submit]');
-            $submit.val('reply');
-            $cancel = $('<input type="button" class="cancelreply" value="cancel" />');
+            $submit.val('Odpowiedz');
+            $cancel = $('<input type="button" class="cancelreply" value="Anuluj" />');
             $cancel.click(function() {
                 $form.remove();
             });
